@@ -3,4 +3,5 @@
 
 ## Basic Types (Primitives and Reference)
 1) Primitive types (number,string,boolean)
-2)
+2) Array
+3) Tuples
