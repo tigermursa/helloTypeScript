@@ -2,3 +2,5 @@
 2. tsc -- watch
 
 ## Basic Types (Primitives and Reference)
+1) Primitive types (number,string,boolean)
+2)
