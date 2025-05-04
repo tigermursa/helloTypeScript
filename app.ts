@@ -13,7 +13,30 @@ const welcomeMessage: string =
   "Hello World, I will complete this course successfully and become a Next level Web Developer!";
 
 const sayHello = (data: string): void => {
-  console.log(data);
+  //console.log(data);
 };
 
 sayHello(welcomeMessage);
+
+/*
+Task 2: Functions, Optional, and Literal Types
+Objective: Create a function with parameters and an optional literal type.
+
+Instructions:
+
+Define a function that takes:
+name (string)
+age (number)
+role (optional, with type 'admin' | 'user' | 'guest')
+The function should log these values or perform a basic action.
+*/
+
+const userInfo = (
+  name: string,
+  age: number,
+  role?: "admin" | "user" | "guest"
+): void => {
+  console.log(name, age, role);
+};
+
+userInfo("Mursalin", 25, "admin");
