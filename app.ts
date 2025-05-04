@@ -19,7 +19,7 @@ const sayHello = (data: string): void => {
 sayHello(welcomeMessage);
 
 /*
-Task 2: Functions, Optional, and Literal Types
+Task 2: Functions, Optional, and Literal Types //!Complete
 Objective: Create a function with parameters and an optional literal type.
 
 Instructions:
@@ -36,7 +36,31 @@ const userInfo = (
   age: number,
   role?: "admin" | "user" | "guest"
 ): void => {
-  console.log(name, age, role);
+  //console.log(name, age, role);
 };
 
 userInfo("Mursalin", 25, "admin");
+
+/*
+Task 3: Object Types, Type Alias, & Literal Types
+Objective: Define a structured Person object using Type Aliases.
+
+Instructions:
+
+Define a Person type alias with properties for Name, Address, Hair and Eye Color,
+ Income and Expense, Hobbies, Family Members, Job, Skills, Marital Status, and Friends.
+*/
+
+type Person = {
+  name: string;
+  address: string;
+  hairColor: string;
+  income: number;
+  expense: number;
+  hobbies: string[];
+  familyMembers: string[];
+  job: string;
+  skills: string[];
+  maritalStatus: boolean;
+  friends: string[];
+};
