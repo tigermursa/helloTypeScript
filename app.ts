@@ -1,17 +1,19 @@
-interface MyProfile {
-    name:string;
-    email:string;
-    password:string;
-    gender?:string
-}
+/*
+Task 1: Basic Data Types and First Program //!Complete
+Objective: Write a TypeScript program that outputs a welcome message.
 
-interface Admin extends MyProfile {
-    admin :boolean
-}
+Instructions:
 
+Create a TypeScript program.
+Print the following message to the console:
+Hello World, I will complete this course successfully and become a Next level Web Developer!
+*/
 
-function english(profile:Admin){
+const welcomeMessage: string =
+  "Hello World, I will complete this course successfully and become a Next level Web Developer!";
 
-    // basically there is lot of to practice with ts
+const sayHello = (data: string): void => {
+  console.log(data);
+};
 
-}
+sayHello(welcomeMessage);
