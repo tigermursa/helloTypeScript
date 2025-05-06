@@ -18,7 +18,7 @@ class Animal {
 const dog = new Animal("German", "L3", "Gheao"); //instance
 // dog.makeSound();
 
-//! Inheritance in OOP
+//! Inheritance in OOP (pita o putro )
 
 class Animal2 {
   name: string;
@@ -45,3 +45,7 @@ class AnimalChild1 extends Animal2 {
     console.log(`says ${this.name}`);
   }
 }
+
+//! 3.Type guard using typeof & in
+//typeof operator use
+// in use
