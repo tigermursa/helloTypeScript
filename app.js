@@ -15,7 +15,7 @@ const sayHello = (data) => {
 };
 sayHello(welcomeMessage);
 /*
-Task 2: Functions, Optional, and Literal Types
+Task 2: Functions, Optional, and Literal Types //!Complete
 Objective: Create a function with parameters and an optional literal type.
 
 Instructions:
@@ -27,6 +27,6 @@ role (optional, with type 'admin' | 'user' | 'guest')
 The function should log these values or perform a basic action.
 */
 const userInfo = (name, age, role) => {
-    console.log(name, age, role);
+    //console.log(name, age, role);
 };
 userInfo("Mursalin", 25, "admin");
