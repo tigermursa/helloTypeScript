@@ -49,3 +49,6 @@ class AnimalChild1 extends Animal2 {
 //! 3.Type guard using typeof & in
 //typeof operator use
 // in use
+
+//! 4.Type guard using typeof & of
+//instanceof operator use
